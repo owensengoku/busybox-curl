@@ -6,11 +6,11 @@ A minimum bare operating system ( **busybox** ) equipped with _client url_ ( **C
 2. Fire-up the *terminal*
 3. Build the image by executing the following command:
 ```
-docker build -t yauritux/busybox-curl .
+make image
 ```
 4. Run the image by using the following command:
 ```
-docker run -it yauritux/busybox-curl
+docker run -it quay.io/owensengoku/busybox-curl
 ```
 
 # LICENSE
@@ -22,4 +22,4 @@ Please see [the docker installation documentation](https://docs.docker.com/insta
 
 # User Feedback
 ## Issues
-If you have any problems with or questions about this image, please contact me through a [GitHub issue](https://github.com/yauritux/busybox-curl/issues).
+If you have any problems with or questions about this image, please contact me through a [GitHub issue](https://github.com/owensengoku/busybox-curl/issues).
